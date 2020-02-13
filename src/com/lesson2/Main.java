@@ -105,7 +105,7 @@ public class Main
 
         for (int i = 0; i < table.length; i++) {
             table[i][i] = 1;
-            table[i][table.length-1-i] = 1;
+            table[i][table.length-i] = 1;
         }
         return table;
     }
