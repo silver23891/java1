@@ -163,7 +163,7 @@ public class Main
         double currentSum = 0;
         for (double val : arr) {
             currentSum += val;
-            if (currentSum == sum) {
+            if (currentSum == (sum - currentSum)) {
                 return true;
             }
         }
